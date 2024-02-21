@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    font-family: 'PT Sans', sans-serif;;
+}
+
+:root{
+    --primary-color: rgba(23, 96, 109, 0.7);
+    --secondy-color: rgb(10, 49, 120);
+
+}
+
+body{
+    background-color: var(--primary-color);
+}
+
+.container{
+    max-width: 640px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 50px;
+
+}
+fieldset{
+    border: none;
+    margin-top: 1rem;
+}
+
+form input{
+    display: block;
+    width: 100%;
+    margin: 1rem auto;
+}
+
+form input:focus{
+border: 3px solid var(--primary-color);
+}
+
+form input[type="submit"]{
+    background-color: var(--primary-color);
+    color: #fff;
+    transition: 0.35s all;
+    text-transform: uppercase;
+    padding: .4rem;
+}
+
+
+form input[type="submit"]:hover{
+    background-color: var(--primary-color);
+    cursor: pointer;
+    color: #fff;
+    transform: scale(1.08);
+    
+
+}
+
+
+.calculadora{
+
+    width: 400px;
+
+
+}
+
+#display{
+    font-size: 2em;
+    width: 100%;
+}
